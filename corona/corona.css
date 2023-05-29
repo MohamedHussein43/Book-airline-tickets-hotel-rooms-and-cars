@@ -1,0 +1,164 @@
+#upButton
+{
+	position:fixed;
+	top:90%;
+	left:90%;
+	width:80px;
+	height:30px;
+	background-color:#cf1b1b;
+	border:none;
+	cursor:pointer;
+}
+
+/*dark and light mood buttons */
+.dark{position: absolute;right:9%;
+    top: 2%;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    background-color:darkcyan;
+    color: #fff;
+
+}
+.dark:hover{background-color: firebrick;}
+.light{position: absolute;right:14%;
+    top: 2%;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    background-color:darkcyan;
+    color: #fff;
+
+}
+.light:hover{background-color: firebrick;}
+.img{
+    position: absolute;
+    top:0px;
+    right: 10px;
+    cursor: pointer;
+    background-color:crimson;
+}
+/* Navbar container */
+.bar {
+    background-color:rgba(0,0,0,0.5);
+    width:1000px;
+    border-radius: 10px;
+    margin:7px;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.bar a {
+  float: left;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.bar a:hover{
+    background-color:rgba(255, 0, 0, 0.7);
+    color:#fff;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .menubtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .menubtn {
+  background-color:rgba(255, 0, 0, 0.8);
+    color: #fff;
+}
+
+/* Dropdown content (hidden by default) */
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width:1000px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    border-radius: 10px;
+}
+
+/*Menu header, if needed */
+.menu-content .header {
+  background:rgba(255, 0, 0, 0.8);
+  padding: 16px;
+  color: white;
+    border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .menu-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color:hsla(0, 100%, 90%, 0.3);;
+  height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color:firebrick;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pic{background-image:url(shutterstock_542299156.png);background-size: cover; background-repeat: no-repeat;width:100%;height:400px;position: absolute;top: 0;left: 0;right: 0;border-bottom-right-radius:7px;border-bottom-left-radius:5px; 
+}
+.pic h1{font-size:48px;margin:10%;margin-left:27%;color: #fff;font-family:sans-serif;text-shadow:5px 5px rgba(0,0,0,0.7);  }
+.content
+{
+    position:absolute;
+    top:75%;
+    right:17.5%;
+    border: 1px solid gainsboro;
+    width: 70%;
+    height:400%;
+    border-radius:8px;
+}
+.content h1{font-size: 30px;margin:30px;font-family:monospace;letter-spacing:5px;color:royalblue;}
+.content p{font-size:20px;font-family: sans-serif;color:dimgray;margin-left:10px;}
+.one{height:290px;width:320px ;position: absolute;top:5%;right:3%;border-radius: 4px;}
+.content h2{font-family: sans-serif;font-size:26px;font-weight:bold;color:darkslategray;margin-left: 10px;}
+#more{display: none;}
+.frame{border:1px solid cadetblue;margin:10% 35%;width:500px;height:600px;  }
+#myBtn{width:140px;background-color:dodgerblue;color:#000;font-weight:bold;border:none;cursor:pointer;border-radius:5px;margin-left:10%;padding:10px;  }
+#myBtn:hover{background-color:#fff;color:dodgerblue;transition:0.5s }

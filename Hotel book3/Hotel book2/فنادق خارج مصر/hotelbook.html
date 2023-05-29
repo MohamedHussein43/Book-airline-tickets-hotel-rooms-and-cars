@@ -1,0 +1,373 @@
+<html>
+	<head>
+		<title>Hotel</title>
+		<meta charset="utf-8">
+		<link id="link1"rel="stylesheet"href="hotelbook.css">
+	</head>
+	<body>
+	
+	<div style="margin-bottom:100px;">
+		<img src="fcai-h-logo2.png" class="imgh">
+		<button class="mode"onclick="modeFun(1)">Light</button>
+		<button class="mode"onclick="modeFun(2)">Dark</button>
+        <div class="bar">
+	<div class="dropdown">    
+		<button class="menubtn">Menu
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="menu-content">
+		  <div class="header">
+			<h2>FCAI-H For Travels</h2>
+			  <hr style="color:#fff;">
+		  </div>
+			<div class="row">
+				<div class="column">
+				  <h3>Travels</h3>
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+				<div class="column">
+				          <h3>Hotels</h3>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20home.html">Hotels-Home</a>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20book2/%D9%81%D9%86%D8%A7%D8%AF%D9%82%20%D8%AF%D8%A7%D8%AE%D9%84%20%D9%85%D8%B5%D8%B1/Egy%20Hotel%20book.html">Inside Egypt</a>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20book2/%D9%81%D9%86%D8%A7%D8%AF%D9%82%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D9%85%D8%B5%D8%B1/hotelbook.html">Outside Egypt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+         <a href=file:///D:/register/home/home.html target="_self">Home</a>
+  <a href="../about/About.html" target="_self">About</a>
+            <a href="../contact%2520us/contact.html">Contact Us</a>
+             <a href="../login/logIn.html" target="_self">SignIn</a>
+             <a href="../regestir/Sign%20Up.html" target="_self">Register</a>
+             <a href="../vocation/vocation.html" target="_self">VocationRentals</a>
+       </div>
+       </div>
+	
+	
+	
+													<!--                 tokio                -->
+		<div class="hotelinfo"id="tokio">
+			<div style="overflow:hidden;">
+				<div class="section1">
+					<div id="bigImgTokio">
+						<img class="bigImg"src="Tokio\tokio1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlTokio(1) "><img class="buttonImg"src="Tokio\tokio1.jpg"></button>
+						<button onclick=" bigImgControlTokio(2) "><img class="buttonImg"src="Tokio\tokio2.jpg"></button>
+						<button onclick=" bigImgControlTokio(3) "><img class="buttonImg"src="Tokio\tokio3.jpg"></button>
+						<button onclick=" bigImgControlTokio(4) "><img class="buttonImg"src="Tokio\tokio4.jpg"></button>
+						<button onclick=" bigImgControlTokio(5) "><img class="buttonImg"src="Tokio\tokio5.jpg"></button>
+						<button onclick=" bigImgControlTokio(6) "><img class="buttonImg"src="Tokio\tokio6.jpg"></button>
+						<button onclick=" bigImgControlTokio(7) "><img class="buttonImg"src="Tokio\tokio7.jpg"></button>
+					</div>
+				</div>
+				<div class="section2">
+					<strong style="font-size:25px;">HOTEL SUI AKASAKA by ABEST</strong><br>
+					 <h3>Minato, Tokyo, 1.2 miles from the center 300 meters from the metro</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="Tokio\japanflag.jpg">
+					JAPAN
+					<br>
+					<span class="cityName">Tokio</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringTokio"class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntTokio"class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 60</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+					
+							<button class ="bookBotton"name="Check" id="CkeckButtonTokio">Check</button>
+					
+					</div>
+				</div>
+			</div>
+			
+			<div id="selectDataTokio">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right">
+					<form name="form">
+						
+						<div style="display:inline; margin-right:100px;">
+							<label>Check out Date</label>
+							<input type="date"name="chOut"id="in0">
+						</div>
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn"id="in1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble" value="single">
+						<label class="radio"id="in2">Single</label>
+						
+						<input type="radio" name="singleDouble" value="double">
+						<label class="radio"id="in3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno" value="oneBed">
+						<label class="radio"id="in4">One Bed</label>
+						
+						<input type="radio" name="bedno" value="twoBed">
+						<label class="radio"id="in5">Two Bed</label>
+					</div>
+					</form>
+					
+					
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoTokio()">Book</button>
+				</div>
+				
+				<div id="roomNoTokio"></div>
+				
+			</div>
+			
+		</div>
+		
+											<!--					london						-->
+		
+		<div class="hotelinfo"id="london">
+			<div style="overflow:hidden;">
+				<div class="section1">
+					<div id="bigImgLondon">
+						<img class="bigImg"src="London\london1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlLondon(1) "><img class="buttonImg"src="London\london1.jpg"></button>
+						<button onclick=" bigImgControlLondon(2) "><img class="buttonImg"src="London\london2.jpg"></button>
+						<button onclick=" bigImgControlLondon(3) "><img class="buttonImg"src="London\london3.jpg"></button>
+						<button onclick=" bigImgControlLondon(4) "><img class="buttonImg"src="London\london4.jpg"></button>
+						<button onclick=" bigImgControlLondon(5) "><img class="buttonImg"src="London\london5.jpg"></button>
+						<button onclick=" bigImgControlLondon(6) "><img class="buttonImg"src="London\london6.jpg"></button>
+						<button onclick=" bigImgControlLondon(7) "><img class="buttonImg"src="London\london7.jpg"></button>
+					</div>
+				</div>
+				<div class="section2">
+					<strong style="font-size:25px;">Citizenm London Bankside</strong><br>
+					 <h3>Southwark, London, 1.3 miles from the center 500 meters from the metro</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="London\britainflag.jpg"alt="Britain Flag">
+					Britain
+					<br>
+					<span class="cityName">London</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringLondon" class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntLondon" class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 74</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+						
+						<button class ="bookBotton"name="Check" id="CkeckButtonLondon">Check</button>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div id="selectDataLondon">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right">
+					<form name="form2">
+						
+						<div style="display:inline; margin-right:100px;">
+							<label>Check out Date</label>
+							<input type="date"name="chOut2"id="inl0">
+						</div>
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn2"id="inl1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble2" value="single">
+						<label class="radio"id="inl2">Single</label>
+						
+						<input type="radio" name="singleDouble2" value="double">
+						<label class="radio"id="inl3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno2" value="oneBed">
+						<label class="radio"id="inl4">One Bed</label>
+						
+						<input type="radio" name="bedno2" value="twoBed">
+						<label class="radio"id="inl5">Two Bed</label>
+					</div>
+					</form>
+					
+					
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoLondon()">Book</button>
+				</div>
+				
+				<div id="roomNoLondon"></div>
+				
+			</div>			
+			
+		</div>
+		
+											<!--						Paris							-->
+		
+		<div class="hotelinfo"id="paris">
+			<div style="overflow:hidden;">
+				<div class="section1">
+					<div id="bigImgParis">
+						<img class="bigImg"src="Paris\paris1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlParis(1) "><img class="buttonImg"src="Paris\paris1.jpg"></button>
+						<button onclick=" bigImgControlParis(2) "><img class="buttonImg"src="Paris\paris2.jpg"></button>
+						<button onclick=" bigImgControlParis(3) "><img class="buttonImg"src="Paris\paris3.jpg"></button>
+						<button onclick=" bigImgControlParis(4) "><img class="buttonImg"src="Paris\paris4.jpg"></button>
+						<button onclick=" bigImgControlParis(5) "><img class="buttonImg"src="Paris\paris5.jpg"></button>
+						<button onclick=" bigImgControlParis(6) "><img class="buttonImg"src="Paris\paris6.jpg"></button>
+						<button onclick=" bigImgControlParis(7) "><img class="buttonImg"src="Paris\paris7.jpg"></button>
+					</div>
+				</div>
+				<div class="section2">
+					<strong style="font-size:25px;">Le Bristol Paris - Collection Hotel In Outcare</strong><br>
+					 <h3>Eighth District - Champs Elysées - Madeleine, Paris 3.2 km from the center, 250 meters from the metro</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="Paris\franceflag.jpg"alt="Britain Flag">
+					France
+					<br>
+					<span class="cityName">Paris</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringParis" class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntParis" class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 106</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+					
+						<button class ="bookBotton"name="Check" id="CkeckButtonParis">Check</button>
+					
+					</div>
+				</div>
+			
+			</div>
+			
+			<div id="selectDataParis">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right">
+					<form name="form3">
+						
+						<div style="display:inline; margin-right:100px;">
+							<label>Check out Date</label>
+							<input type="date"name="chOut3"id="inp0">
+						</div>
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn3"id="inp1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble3" value="single">
+						<label class="radio"id="inp2">Single</label>
+						
+						<input type="radio" name="singleDouble3" value="double">
+						<label class="radio"id="inp3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno3" value="oneBed">
+						<label class="radio"id="inp4">One Bed</label>
+						
+						<input type="radio" name="bedno3" value="twoBed">
+						<label class="radio"id="inp5">Two Bed</label>
+					</div>
+					</form>
+					
+					
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoParis()">Book</button>
+				</div>
+				
+				<div id="roomNoParis"></div>
+				
+			</div>
+			
+		</div>
+		<script src="jquery-3.5.1.min.js"></script>
+		<script src="hotelbook.js"></script>
+	</body>
+</html>

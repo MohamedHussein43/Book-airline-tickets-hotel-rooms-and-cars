@@ -1,0 +1,373 @@
+<html>
+	<head>
+		<title>Hotel</title>
+		<meta charset="utf-8">
+		<link id="link1" rel="stylesheet"href="Egy hotel book.css">
+	</head>
+	<body>
+	
+	<div style="margin-bottom:100px;">
+		<img src="fcai-h-logo2.png" class="imgh">
+        <button class="mode"onclick="modeFun(1)">Light</button>
+		<button class="mode"onclick="modeFun(2)">Dark</button>
+		<div class="bar">
+	<div class="dropdown">    
+		<button class="menubtn">Menu
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="menu-content">
+		  <div class="header">
+			<h2>FCAI-H For Travels</h2>
+			  <hr style="color:#fff;">
+		  </div>
+			<div class="row">
+				<div class="column">
+				  <h3>Travels</h3>
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+				<div class="column">
+				          <h3>Hotels</h3>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20home.html">Hotels-Home</a>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20book2/%D9%81%D9%86%D8%A7%D8%AF%D9%82%20%D8%AF%D8%A7%D8%AE%D9%84%20%D9%85%D8%B5%D8%B1/Egy%20Hotel%20book.html">Inside Egypt</a>
+          <a href="file:///D:/register/Hotel%20book3/Hotel%20book2/%D9%81%D9%86%D8%A7%D8%AF%D9%82%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D9%85%D8%B5%D8%B1/hotelbook.html">Outside Egypt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+         <a href=file:///D:/register/home/home.html target="_self">Home</a>
+  <a href="../about/About.html" target="_self">About</a>
+            <a href="../contact%2520us/contact.html">Contact Us</a>
+             <a href="../login/logIn.html" target="_self">SignIn</a>
+             <a href="../regestir/Sign%20Up.html" target="_self">Register</a>
+             <a href="../vocation/vocation.html" target="_self">VocationRentals</a>
+       </div>
+       </div>
+	
+	
+	
+													<!--                 sharm                -->
+		<div class="hotelinfo" id="sharm" name ="one">
+			<div style="overflow:hidden;">
+				
+				<div class="section1">
+					<div id="bigImgSharm">
+						<img class="bigImg"src="Sharm\sharm1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlSharm(1) "><img class="buttonImg"src="Sharm\sharm1.jpg"></button>
+						<button onclick=" bigImgControlSharm(2) "><img class="buttonImg"src="Sharm\sharm2.jpg"></button>
+						<button onclick=" bigImgControlSharm(3) "><img class="buttonImg"src="Sharm\sharm3.jpg"></button>
+						<button onclick=" bigImgControlSharm(4) "><img class="buttonImg"src="Sharm\sharm4.jpg"></button>
+						<button onclick=" bigImgControlSharm(5) "><img class="buttonImg"src="Sharm\sharm5.jpg"></button>
+						<button onclick=" bigImgControlSharm(6) "><img class="buttonImg"src="Sharm\sharm6.jpg"></button>
+						<button onclick=" bigImgControlSharm(7) "><img class="buttonImg"src="Sharm\sharm7.jpg"></button>
+					</div>
+				</div>
+				
+				<div class="section2">
+					<strong style="font-size:25px;">Coral Sea Aqua Club Resort</strong><br>
+					 <h3>Hotel in Nabq Bay, Sharm El Sheikh</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="Sharm\egyptflag.png">
+					Egypt
+					<br>
+					<span class="cityName">Sharm El-Shaikh</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringSharm"class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntSharm"class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 70</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+					
+							<button class ="bookBotton"name="Check" id="sharmCheckBotton">Check</button>
+					
+					</div>
+				</div>
+			</div>
+			
+			<div id="selectDataSharm" name="two">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right" name="three">
+					<form name="form">
+						
+						
+							<label>Check out Date</label>
+							<input type="date" name="chOut"id="in0"style=" margin-right:100px;">
+						
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn"value=""id="in1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble" value="single">
+						<label class="radio" id="in2">Single</label>
+						
+						<input type="radio" name="singleDouble" value="duble">
+						<label class="radio" id="in3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno" value="oneBed">
+						<label class="radio"id="in4">One Bed</label>
+						
+						<input type="radio" name="bedno" value="twoBed">
+						<label class="radio"id="in5">Two Bed</label>
+					</div>
+					</form>
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoSharm()">Book</button>
+				</div>
+				
+				<div id="roomNoSharm"></div>
+				
+			</div>
+			
+		</div>
+		
+											<!--					cairo						-->
+		
+		<div class="hotelinfo" id="cairo">
+			<div style="overflow:hidden;">
+				<div class="section1">
+					<div id="bigImgLondon">
+						<img class="bigImg"src="Cairo\cairo1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlLondon(1) "><img class="buttonImg"src="Cairo\cairo1.jpg"></button>
+						<button onclick=" bigImgControlLondon(2) "><img class="buttonImg"src="Cairo\cairo2.jpg"></button>
+						<button onclick=" bigImgControlLondon(3) "><img class="buttonImg"src="Cairo\cairo3.jpg"></button>
+						<button onclick=" bigImgControlLondon(4) "><img class="buttonImg"src="Cairo\cairo4.jpg"></button>
+						<button onclick=" bigImgControlLondon(5) "><img class="buttonImg"src="Cairo\cairo5.jpg"></button>
+						<button onclick=" bigImgControlLondon(6) "><img class="buttonImg"src="Cairo\cairo6.jpg"></button>
+						<button onclick=" bigImgControlLondon(7) "><img class="buttonImg"src="Cairo\cairo7.jpg"></button>
+					</div>
+				</div>
+				<div class="section2">
+					<strong style="font-size:25px;">Marvel Stone Hotel</strong><br>
+					 <h3>6 gerier street, nazlet elsemman, giza, giza, 12511 Cairo, Egypt - Great location</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="Sharm\egyptflag.png">
+					Egypt
+					<br>
+					<span class="cityName">Cairo</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringLondon" class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntLondon" class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 18</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+						
+						<button class ="bookBotton"name="Check" id="cairoCheckBotton">Check</button>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div id="selectDataLondon">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right">
+					<form name="form2">
+						
+						<div style="display:inline; margin-right:100px;">
+							<label>Check out Date</label>
+							<input type="date"name="chOut2"id="inl0">
+						</div>
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn2"id="inl1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble2" value="single">
+						<label class="radio"id="inl2">Single</label>
+						
+						<input type="radio" name="singleDouble2" value="double">
+						<label class="radio"id="inl3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno2" value="oneBed"name="chIn2">
+						<label class="radio"id="inl4">One Bed</label>
+						
+						<input type="radio" name="bedno2" value="twoBed"name="chIn2">
+						<label class="radio"id="inl5">Two Bed</label>
+					</div>
+				</form>
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoLondon()">Book</button>
+				</div>
+				
+				<div id="roomNoLondon"></div>
+				
+			</div>			
+			
+		</div>
+		
+											<!--						hurghada							-->
+		
+		<div class="hotelinfo"id="hurghada">
+			<div style="overflow:hidden;">
+				<div class="section1">
+					<div id="bigImgParis">
+						<img class="bigImg"src="Hurghada\hurghada1.jpg"alt="roof">
+					</div>
+					<div>
+						<button onclick=" bigImgControlParis(1) "><img class="buttonImg"src="Hurghada\hurghada1.jpg"></button>
+						<button onclick=" bigImgControlParis(2) "><img class="buttonImg"src="Hurghada\hurghada2.jpg"></button>
+						<button onclick=" bigImgControlParis(3) "><img class="buttonImg"src="Hurghada\hurghada3.jpg"></button>
+						<button onclick=" bigImgControlParis(4) "><img class="buttonImg"src="Hurghada\hurghada4.jpg"></button>
+						<button onclick=" bigImgControlParis(5) "><img class="buttonImg"src="Hurghada\hurghada5.jpg"></button>
+						<button onclick=" bigImgControlParis(6) "><img class="buttonImg"src="Hurghada\hurghada6.jpg"></button>
+						<button onclick=" bigImgControlParis(7) "><img class="buttonImg"src="Hurghada\hurghada7.jpg"></button>
+					</div>
+				</div>
+				<div class="section2">
+					<strong style="font-size:25px;">Samra Bay Hotel and Resort</strong><br>
+					 <h3>Hotel in the tourist walk, HurghadaLocated in Hurghada, 11 km from New Marina, Samra Bay Hotel & Resort features a private beach area, 4 outdoor pools and a sports center. The 5-star hotel has a garden and air-conditioned rooms. Staff are friendly,</h3><br><br>
+					 <span>Standard double or twin room - includes public transport ticket</span><br>
+					 <span>- breakfast - lunch - room service</span><br>
+					 <span>Beds: 1 double bed or 2 single beds</span>
+				</div>
+				
+				
+				<div class="section3">
+					<img class="flag" src="Sharm\egyptflag.png">
+					Egypt
+					<br>
+					<span class="cityName">Hurghada</span>
+				</div>
+				
+				
+				<div class="section4">
+					<div>
+						<div id="rateStringParis" class="rateString"><div id="reviews"></div></div>
+						<div id="rateIntParis" class="rateInt"></div>
+					</div>
+					
+					<br>
+						
+						<div class="priceinfo">
+							<span>1 night, 2 adults</span><br>
+							<span class="price">$ 88</span><br>
+							<span>including taxes and fees</span>
+						</div>
+					
+					<br>
+					<div class="bottonPlace">
+					
+						<button class ="bookBotton"name="Check" id="hurghadaCheckBotton">Check</button>
+					
+					</div>
+				</div>
+			
+			</div>
+			
+			<div id="selectDataParis">
+			
+				<span>Additional information about booking:</span><br>
+				
+				<div align="right">
+					<form name="form3">
+						
+						<div style="display:inline; margin-right:100px;">
+							<label>Check out Date</label>
+							<input type="date"name="chOut3"id="inp0">
+						</div>
+						
+						<div style="display:inline; margin-right:20px;">
+							<label>Date of arrival</label>
+							<input type="date"name="chIn3"id="inp1">
+						</div>
+						
+					<br>
+				
+					<div style="display:inline;margin-right:175">
+						
+						<input type="radio" name="singleDouble3" value="single">
+						<label class="radio"id="inp2">Single</label>
+						
+						<input type="radio" name="singleDouble3" value="double">
+						<label class="radio"id="inp3">Double</label>
+					</div>
+
+					<div style="display:inline;margin-right:20px;">
+						<input type="radio" name="bedno3" value="oneBed">
+						<label class="radio"id="inp4">One Bed</label>
+						
+						<input type="radio" name="bedno3" value="twoBed">
+						<label class="radio"id="inp5">Two Bed</label>
+					</div>
+
+				</form>
+
+				</div>
+				<div class="finalButton">
+					<button class="bookBotton"onclick="roomnoParis()">Book</button>
+				</div>
+				
+				<div id="roomNoParis"></div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<script src="jquery-3.5.1.min.js"></script>
+		<script src="Egy hotel book.js"></script>
+	</body>
+</html>
