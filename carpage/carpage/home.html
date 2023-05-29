@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="home.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    </head>
+    <body >
+             
+        <img src="fcai-h-logo2.png" class="img">
+		
+		<div class="bar">
+  <div class="dropdown">
+  
+    <button class="menubtn">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="menu-content">
+      <div class="header">
+        <h2>FCAI-H For Travels</h2>
+          <hr style="color:#fff;">
+      </div>
+      <div class="row">
+        <div class="column">
+          <h3>Travels</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Hotels</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div>
+             <a href="#home">Home</a>
+  <a href="#news">News</a>
+       </div>
+        <!-- pop-up-window-->
+       <div id ="cont">
+			<div id ="title"><h1 id = "titletitle">Car Rental - Search, Compare & Save!</h1></div>
+			<div  id ="title2"><h4 id ="title22">Complete the search form below to find cheap rental cars at over 60,000 locations worldwide</h4></div>
+	   
+	   </div> 
+	   <div id="searchDiv">
+			<input type="text" id="myInput" onkeyup="myFunction()" onclick="clickFun()" placeholder="Search for names..">
+			<ul id="myUL">
+				  <li><a href="#">Adele</a></li>
+				  <li><a href="#">Agnes</a></li>
+
+				  <li><a href="#">Billy</a></li>
+				  <li><a href="#">Bob</a></li>
+
+				  <li><a href="#">Calvin</a></li>
+				  <li><a href="#">Christina</a></li>
+				  <li><a href="#">Cindy</a></li>
+			</ul>
+	    </div>
+	   
+		<button id="upButton">Top</button>
+		
+	   <div id = "contt">
+			
+			<div id = "right">
+				<div id = "pic"><image src="car.png" ></div><br>
+				<h2 class = "rr">LEADING BRANDS, BIG SAVINGS!</h2>
+				<image src="dollar_logo_lrg.gif" class = "rr">
+				<image src="fox_logo_lrg.gif"class = "rr" >
+				<image src="payless_logo_lrg.gif" class = "rr"><br>
+				<image src="hertz_logo_lrg.gif"class = "rr" >
+				<image src="alamo_logo_lrg.gif" class = "rr">
+				<image src="budget_logo_lrg.gif" class = "rr">
+			</div>
+			<div id = "left">
+					<h1 id ="htitle" class ="inpu">SEARCH FOR CAR HIRE</h1>
+					<form id="form">
+						<span class ="inpu">Pick up</span><br>
+						<input type ="text" class ="inpu" id ="text1"name="pickUp" value=""id="in0"><br>
+						<input type ="radio" class ="inpu" onclick="document.getElementById('text2').style.display = 'block';" id="in1"name ="cars"value="return"><span class ="inpu">Return car to the same location</span><br><br>
+						<input type ="radio" class ="inpu" onclick="document.getElementById('text2').style.display = 'none';" id="in2"name ="cars"><span class ="inpu"value="noReturn">don't Return car to the same location</span><br>
+						<input type ="text" class ="inpu" id ="text2"  ><br>
+						<label class ="inpu">Pick-up Date:</label><label class="lakk">Time:</label><br>
+						<select id="Day_select" name="puDay_select" class ="inpu">
+								<option value="-1" disabled="disabled">Day</option>
+								<option value="1">Wed 1</option>
+								<option value="2">Thu 2</option>
+								<option value="3">Fri 3</option>
+								<option value="4">Sat 4</option>
+								<option value="5">Sun 5</option>
+								<option value="6">Mon 6</option>
+								<option value="7">Tue 7</option>
+								<option value="8">Wed 8</option>
+								<option value="9">Thu 9</option>
+								<option value="10">Fri 10</option>
+								<option value="11">Sat 11</option>
+								<option value="12">Sun 12</option>
+								<option value="13">Mon 13</option>
+								<option value="14">Tue 14</option>
+								<option value="15">Wed 15</option>
+								<option value="16">Thu 16</option>
+								<option value="17">Fri 17</option>
+								<option value="18">Sat 18</option>
+								<option value="19">Sun 19</option>
+								<option value="20">Mon 20</option>
+								<option value="21">Tue 21</option>
+								<option value="22">Wed 22</option>
+								<option value="23">Thu 23</option>
+								<option value="24">Fri 24</option>
+								<option value="25">Sat 25</option>
+								<option value="26">Sun 26</option>
+								<option value="27">Mon 27</option>
+								<option value="28">Tue 28</option>
+								<option value="29">Wed 29</option>
+								<option value="30">Thu 30</option>
+								<option value="31">Fri 31</option>
+						</select>
+						<select id="Month_select" name="puMonth_select" class="month">
+							<option value="-1" disabled="disabled">Month</option>
+							<option value="7-2020" selected="selected">July'20</option>
+							<option value="8-2020">August'20</option>
+							<option value="9-2020">September'20</option>
+							<option value="10-2020">October'20</option>
+							<option value="11-2020">November'20</option>
+							<option value="12-2020">December'20</option>
+							<option value="1-2021">January'21</option>
+							<option value="2-2021">February'21</option>
+							<option value="3-2021">March'21</option>
+							<option value="4-2021">April'21</option>
+							<option value="5-2021">May'21</option>
+							<option value="6-2021">June'21</option>
+							<option value="7-2021">July'21</option>
+							<option value="8-2021">August'21</option>
+							<option value="9-2021">September'21</option>
+							<option value="10-2021">October'21</option>
+							<option value="11-2021">November'21</option>
+							<option value="12-2021">December'21</option>
+							<option value="1-2022">January'22</option>
+						</select>
+						<select name="twelveHrDoTime" id="twelveHrDoTime" class="twelvehour"><option value="7:00 AM">7:00 AM</option>
+						<option value="7:15 AM">7:15 AM</option>
+						<option value="7:30 AM">7:30 AM</option>
+						<option value="7:45 AM">7:45 AM</option>
+						<option value="8:00 AM">8:00 AM</option>
+						<option value="8:15 AM">8:15 AM</option>
+						<option value="8:30 AM">8:30 AM</option>
+						<option value="8:45 AM">8:45 AM</option>
+						<option value="9:00 AM">9:00 AM</option>
+						<option value="9:15 AM">9:15 AM</option>
+						<option value="9:30 AM">9:30 AM</option>
+						<option value="9:45 AM">9:45 AM</option>
+						<option value="10:00 AM" selected="selected">10:00 AM</option>
+						<option value="10:15 AM">10:15 AM</option>
+						<option value="10:30 AM">10:30 AM</option>
+						<option value="10:45 AM">10:45 AM</option>
+						<option value="11:00 AM">11:00 AM</option>
+						<option value="11:15 AM">11:15 AM</option>
+						<option value="11:30 AM">11:30 AM</option>
+						<option value="11:45 AM">11:45 AM</option>
+						<option value="12:00 PM">12:00 PM</option>
+						<option value="12:15 PM">12:15 PM</option>
+						<option value="12:30 PM">12:30 PM</option>
+						<option value="12:45 PM">12:45 PM</option>
+						<option value="1:00 PM">1:00 PM</option>
+						<option value="1:15 PM">1:15 PM</option>
+						<option value="1:30 PM">1:30 PM</option>
+						<option value="1:45 PM">1:45 PM</option>
+						<option value="2:00 PM">2:00 PM</option>
+						<option value="2:15 PM">2:15 PM</option>
+						<option value="2:30 PM">2:30 PM</option>
+						<option value="2:45 PM">2:45 PM</option>
+						<option value="3:00 PM">3:00 PM</option>
+						<option value="3:15 PM">3:15 PM</option>
+						<option value="3:30 PM">3:30 PM</option>
+						<option value="3:45 PM">3:45 PM</option>
+						<option value="4:00 PM">4:00 PM</option>
+						<option value="4:15 PM">4:15 PM</option>
+						<option value="4:30 PM">4:30 PM</option>
+						<option value="4:45 PM">4:45 PM</option>
+						<option value="5:00 PM">5:00 PM</option>
+						<option value="5:15 PM">5:15 PM</option>
+						<option value="5:30 PM">5:30 PM</option>
+						<option value="5:45 PM">5:45 PM</option>
+						<option value="6:00 PM">6:00 PM</option>
+						<option value="6:15 PM">6:15 PM</option>
+						<option value="6:30 PM">6:30 PM</option>
+						<option value="6:45 PM">6:45 PM</option>
+						<option value="7:00 PM">7:00 PM</option>
+						<option value="7:15 PM">7:15 PM</option>
+						<option value="7:30 PM">7:30 PM</option>
+						<option value="7:45 PM">7:45 PM</option>
+						<option value="8:00 PM">8:00 PM</option>
+						<option value="8:15 PM">8:15 PM</option>
+						<option value="8:30 PM">8:30 PM</option>
+						<option value="8:45 PM">8:45 PM</option>
+						<option value="9:00 PM">9:00 PM</option>
+						<option value="9:15 PM">9:15 PM</option>
+						<option value="9:30 PM">9:30 PM</option>
+						<option value="9:45 PM">9:45 PM</option>
+						<option value="10:00 PM">10:00 PM</option>
+						<option value="10:15 PM">10:15 PM</option>
+						<option value="10:30 PM">10:30 PM</option>
+						<option value="10:45 PM">10:45 PM</option>
+						<option value="11:00 PM">11:00 PM</option>
+						</select>
+						<br><br>
+												<label class ="inpu">Drop Off:</label><label class="lakk" id ="time2">Time:</label><br>
+						<select id="Day_select" name="puDay_select" class ="inpu">
+								<option value="-1" disabled="disabled">Day</option>
+								<option value="1">Wed 1</option>
+								<option value="2">Thu 2</option>
+								<option value="3">Fri 3</option>
+								<option value="4">Sat 4</option>
+								<option value="5">Sun 5</option>
+								<option value="6">Mon 6</option>
+								<option value="7">Tue 7</option>
+								<option value="8">Wed 8</option>
+								<option value="9">Thu 9</option>
+								<option value="10">Fri 10</option>
+								<option value="11">Sat 11</option>
+								<option value="12">Sun 12</option>
+								<option value="13">Mon 13</option>
+								<option value="14">Tue 14</option>
+								<option value="15">Wed 15</option>
+								<option value="16">Thu 16</option>
+								<option value="17">Fri 17</option>
+								<option value="18">Sat 18</option>
+								<option value="19">Sun 19</option>
+								<option value="20">Mon 20</option>
+								<option value="21">Tue 21</option>
+								<option value="22">Wed 22</option>
+								<option value="23">Thu 23</option>
+								<option value="24">Fri 24</option>
+								<option value="25">Sat 25</option>
+								<option value="26">Sun 26</option>
+								<option value="27">Mon 27</option>
+								<option value="28">Tue 28</option>
+								<option value="29">Wed 29</option>
+								<option value="30">Thu 30</option>
+								<option value="31">Fri 31</option>
+						</select>
+						<select id="Month_select" name="puMonth_select" class="month">
+							<option value="-1" disabled="disabled">Month</option>
+							<option value="7-2020" selected="selected">July'20</option>
+							<option value="8-2020">August'20</option>
+							<option value="9-2020">September'20</option>
+							<option value="10-2020">October'20</option>
+							<option value="11-2020">November'20</option>
+							<option value="12-2020">December'20</option>
+							<option value="1-2021">January'21</option>
+							<option value="2-2021">February'21</option>
+							<option value="3-2021">March'21</option>
+							<option value="4-2021">April'21</option>
+							<option value="5-2021">May'21</option>
+							<option value="6-2021">June'21</option>
+							<option value="7-2021">July'21</option>
+							<option value="8-2021">August'21</option>
+							<option value="9-2021">September'21</option>
+							<option value="10-2021">October'21</option>
+							<option value="11-2021">November'21</option>
+							<option value="12-2021">December'21</option>
+							<option value="1-2022">January'22</option>
+						</select>
+						<select name="twelveHrDoTime" id="twelveHrDoTime" class="twelvehour"><option value="7:00 AM">7:00 AM</option>
+						<option value="7:15 AM">7:15 AM</option>
+						<option value="7:30 AM">7:30 AM</option>
+						<option value="7:45 AM">7:45 AM</option>
+						<option value="8:00 AM">8:00 AM</option>
+						<option value="8:15 AM">8:15 AM</option>
+						<option value="8:30 AM">8:30 AM</option>
+						<option value="8:45 AM">8:45 AM</option>
+						<option value="9:00 AM">9:00 AM</option>
+						<option value="9:15 AM">9:15 AM</option>
+						<option value="9:30 AM">9:30 AM</option>
+						<option value="9:45 AM">9:45 AM</option>
+						<option value="10:00 AM" selected="selected">10:00 AM</option>
+						<option value="10:15 AM">10:15 AM</option>
+						<option value="10:30 AM">10:30 AM</option>
+						<option value="10:45 AM">10:45 AM</option>
+						<option value="11:00 AM">11:00 AM</option>
+						<option value="11:15 AM">11:15 AM</option>
+						<option value="11:30 AM">11:30 AM</option>
+						<option value="11:45 AM">11:45 AM</option>
+						<option value="12:00 PM">12:00 PM</option>
+						<option value="12:15 PM">12:15 PM</option>
+						<option value="12:30 PM">12:30 PM</option>
+						<option value="12:45 PM">12:45 PM</option>
+						<option value="1:00 PM">1:00 PM</option>
+						<option value="1:15 PM">1:15 PM</option>
+						<option value="1:30 PM">1:30 PM</option>
+						<option value="1:45 PM">1:45 PM</option>
+						<option value="2:00 PM">2:00 PM</option>
+						<option value="2:15 PM">2:15 PM</option>
+						<option value="2:30 PM">2:30 PM</option>
+						<option value="2:45 PM">2:45 PM</option>
+						<option value="3:00 PM">3:00 PM</option>
+						<option value="3:15 PM">3:15 PM</option>
+						<option value="3:30 PM">3:30 PM</option>
+						<option value="3:45 PM">3:45 PM</option>
+						<option value="4:00 PM">4:00 PM</option>
+						<option value="4:15 PM">4:15 PM</option>
+						<option value="4:30 PM">4:30 PM</option>
+						<option value="4:45 PM">4:45 PM</option>
+						<option value="5:00 PM">5:00 PM</option>
+						<option value="5:15 PM">5:15 PM</option>
+						<option value="5:30 PM">5:30 PM</option>
+						<option value="5:45 PM">5:45 PM</option>
+						<option value="6:00 PM">6:00 PM</option>
+						<option value="6:15 PM">6:15 PM</option>
+						<option value="6:30 PM">6:30 PM</option>
+						<option value="6:45 PM">6:45 PM</option>
+						<option value="7:00 PM">7:00 PM</option>
+						<option value="7:15 PM">7:15 PM</option>
+						<option value="7:30 PM">7:30 PM</option>
+						<option value="7:45 PM">7:45 PM</option>
+						<option value="8:00 PM">8:00 PM</option>
+						<option value="8:15 PM">8:15 PM</option>
+						<option value="8:30 PM">8:30 PM</option>
+						<option value="8:45 PM">8:45 PM</option>
+						<option value="9:00 PM">9:00 PM</option>
+						<option value="9:15 PM">9:15 PM</option>
+						<option value="9:30 PM">9:30 PM</option>
+						<option value="9:45 PM">9:45 PM</option>
+						<option value="10:00 PM">10:00 PM</option>
+						<option value="10:15 PM">10:15 PM</option>
+						<option value="10:30 PM">10:30 PM</option>
+						<option value="10:45 PM">10:45 PM</option>
+						<option value="11:00 PM">11:00 PM</option>
+						</select><br>
+						<button  id ="sibk">submit</button>
+					
+							
+					</form>
+					
+			</div>
+
+	   </div>
+	<div id ="sec">
+		<div id ="f" >
+			<span id = "h2l2">Why use eSky?</span><br>
+			<ul>
+				<li>Free cancellations on most bookings</li>
+				<li>No hidden charges or credit card fees</li>
+				<li>Trusted by over 4 Million Customers!</li>
+			</ul>
+		</div>
+		<div id = "s"><h2 id = "h2l">USA & Worldwide rentals</h2>
+		<p>As the <b>world's biggest</b> car rental booking service, we provide cars at over 60,000 locations worldwide</p>
+		</div>
+	
+	
+	</div>
+	<div class="div3">
+<table style="width:100%">
+<tr>
+<td><h2>Frequently Asked Questions</h2>
+
+<div class="plfaq-question">
+<h3>How old do I need to be to rent a car?</h3>
+<p>With many rental companies, you must be at least 21 years of age to rent a car, and any driver under 25 may have to pay a Young Driver Fee. Similarly, people aged 70+ may find some companies will charge a Senior Driver Fee, or may not rent to them at all.</p>
+<p>So car rental for the under-25s or over-70s can be more expensive – which is one more reason to book with Rentalcars.com, as we work with all the big brands. Just check each car’s terms and conditions to see if your age would make any difference.</p>
+</div></td>
+ <td><div class="plfaq-question">
+<h3>Do I need rental car insurance – and what is ‘CDW’ anyway?</h3>
+<p>Before you buy any car rental insurance, you should find out what coverage is provided by your credit card company, your homeowner’s / renter’s policy, and your own car insurance. This will help you decide what cover you need to buy while booking and picking up your car.</p>
+<p>CDW means ‘Collision Damage Waiver’; a type of cover that limits your liability for damage to certain parts of a rental car.</p>
+</div></td>
+</tr>
+<tr>
+
+<td><div class="plfaq-question">
+<h3>Can I book a one-way car rental?</h3>
+<p>Yes. One-way car rental deals are quite common, as they give people even more freedom to explore and enjoy their rental. However, rental companies will often charge a One Way Fee (or ‘drop charge’) to cover the cost of returning the car to its original location. As the world’s biggest online car rental service, we can help you find a one-way rental car with a low Fee – or no Fee at all.</p>
+</div></td>
+<td><div class="plfaq-question">
+<h3>How do I find the cheapest car rental deals?</h3>
+<p>As the world’s biggest online car rental service, we specialize in finding the cheapest car rental deals from major brands such as Hertz, Avis, Alamo and Budget. Daily, weekly or monthly car rentals… just fill in our search form to compare deals from different companies – and find out how much you can save when you rent a car from us.</p>
+</div></td>
+</tr>
+</table>
+<br class="clearfix">
+<div class="plfaq-links">
+<p>Any questions? Just visit our <a id="faq_link_to_help" href="https://www.rentalcars.com/en/help/">Help page</a> or <a id="faq_link_to_contact" href="https://www.rentalcars.com/en/contact/">Contact Us</a></p>
+</div>
+</div>
+
+	
+<script src="jquery-3.5.1.min.js"></script>	
+<script src="home.js">
+
+</script>
+
+    </body>
+    </html>
